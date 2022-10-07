@@ -7,7 +7,7 @@
 tic;
 fType  = 'Chebyshev II';%'Butterworth';
 fShape = 'LPF';
-n     = 7;
+n     = 2;
 Rs    = 1;
 Rl    = 2;
 fp    = 0.159;
