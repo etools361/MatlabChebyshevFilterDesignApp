@@ -107,6 +107,7 @@ switch fType % 滤波器类型
 end
 Z(abs(Z)>100*fp*2*pi) = [];
 P = [P,-real(P)+1i.*imag(P)];
+Z = [Z,-real(Z)+1i.*imag(Z)];
 switch fShape
     case 'LPF'
         P = P;
